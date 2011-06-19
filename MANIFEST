@@ -1,0 +1,11 @@
+MANIFEST
+setup.py
+bashcutter/bashcutter.py
+bashcutter/__init__.py
+bin/bashcutter
+bin/cb
+bin/lb
+bin/mb
+bin/pb
+bin/rmb
+bin/xb

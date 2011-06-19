@@ -1,0 +1,19 @@
+Source: bashcutter
+Section: python
+Priority: optional
+Maintainer: Daniel Ekelund <contact@danielekelund.info>
+Build-Depends: debhelper (>= 7.0.50~), python-support, python (>=2.6)
+Standards-Version: 3.8.4
+Homepage: https://github.com/dekelund/bashcutter
+Vcs-Git: git://github.com/dekelund/bashcutter.git
+Vcs-Browser: https://github.com/dekelund/bashcutter
+
+Package: bashcutter
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Helps you to cut files for future use.
+ BushCutter will help you with copy/cut and paste
+ of files you might need in the future. When you
+ copy or cut a file, the content will be placed in
+ a buffer that you are able to list and paste when
+ you need a copy.
